@@ -1,4 +1,4 @@
-Promised is a small library to convert APIs with Node-style callbacks into promises. It is similar to "promisify" libraries except that it uses the built-in `Promise` implementation included with ES6.
+`node-promised` is a small library to convert APIs with Node-style callbacks into promises. It is similar to "promisify" libraries except that it uses the built-in `Promise` implementation included with ES6.
 
 # Usage
 ```js
@@ -6,7 +6,7 @@ Promised is a small library to convert APIs with Node-style callbacks into promi
 require('es6-promise').polyfill();
 
 var fs = require('fs');
-var promised = require('promised');
+var promised = require('node-promised');
 
 var promiseReadFile = promised(fs.readFile);
 promiseReadFile('example.txt', 'utf8').then(function(contents) {
