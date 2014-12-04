@@ -1,6 +1,6 @@
 {
   "name": "node-promised",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convert Node-style callbacks to promises, using the built-in Promise implementation",
   "main": "promised.js",
   "scripts": {
@@ -21,6 +21,9 @@
     "url": "https://github.com/ide/node-promised/issues"
   },
   "homepage": "https://github.com/ide/node-promised",
+  "files": [
+    "promised.js"
+  ],
   "devDependencies": {
     "es6-promise": "^2.0.0",
     "jest-cli": "^0.2.0"
