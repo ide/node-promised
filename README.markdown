@@ -1,7 +1,7 @@
 Promised is a small library to convert APIs with Node-style callbacks into promises. It is similar to "promisify" libraries except that it uses the built-in `Promise` implementation included with ES6.
 
 # Usage
-```
+```js
 // Define the Promise constructor if you are not using ES6
 require('es6-promise').polyfill();
 
