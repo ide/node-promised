@@ -1,0 +1,28 @@
+{
+  "name": "promised",
+  "version": "1.0.0",
+  "description": "Convert Node-style callbacks to promises, using the built-in Promise implementation",
+  "main": "promised.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ide/promised.git"
+  },
+  "keywords": [
+    "promise",
+    "node-style",
+    "callbacks"
+  ],
+  "author": "James Ide",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ide/promised/issues"
+  },
+  "homepage": "https://github.com/ide/promised",
+  "devDependencies": {
+    "es6-promise": "^2.0.0",
+    "jest-cli": "^0.2.0"
+  }
+}
