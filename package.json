@@ -1,6 +1,6 @@
 {
   "name": "node-promised",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert Node-style callbacks to promises, using the built-in Promise implementation",
   "main": "promised.js",
   "scripts": {
